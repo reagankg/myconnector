@@ -1,0 +1,33 @@
+{
+  "name": "myconnector",
+  "version": "1.0.0",
+  "description": "dev network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reagankg/myconnector.git"
+  },
+  "author": "reagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reagankg/myconnector/issues"
+  },
+  "homepage": "https://github.com/reagankg/myconnector#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
